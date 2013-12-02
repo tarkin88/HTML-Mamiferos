@@ -1,13 +1,37 @@
 
 body {
-    background:#F0F0D8;
-    font-family: source-sans-pro;
+/*    background:#F0F0D8;*/
+    background:#0F1113;
+    font-family: source-sans-pro, droid-sans;
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
+    color:#ffffff;
 }
 
 h1,h2,h3 {
-    color:#1693A5;
+    color: #adcf39;
+    font-family: volkhov;
 }
 
-h3 {
-    
+div {
+    font-weight:normal;
+    font-feature-settings:normal;
+    text-align:justify;
+}
+
+img {
+max-width:100%;
+    height:auto;
+    border-color:transparent;
+}
+
+strong {
+    color:#adcf39;
+    font-family: droid-sans-mono;
+}
+
+.fuente {
+    color:#CCCCCC;
+    font-family: source-code-pro;
+    font-weight:lighter;
 }
